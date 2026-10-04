@@ -1,0 +1,57 @@
+/* Shared spacing corrections for the existing Leeway layouts. */
+.page-home .form-grid>*{min-width:0}
+.page-home .form-grid{gap:24px}
+.page-home #schedule-fields>.form-grid{grid-template-columns:1fr}
+.page-home #schedule-fields p{margin:0 0 16px}
+.page-home #schedule-fields #schedule-status:empty{display:none}
+.page-home fieldset#roster{min-width:0;margin:0;padding:20px}
+.page-home #roster-note{margin:4px 0 16px}
+.page-home .player-entry{margin:0 0 16px;gap:12px}
+.page-home #player-count{margin:16px 0 0}
+.page-home #online-times{margin-top:24px}
+.page-home #online-status{margin:12px 0 0}
+.page-home .quote{margin-top:24px;padding:24px}
+.page-home #booking-policy{margin-top:24px}
+.page-home #booking-policy>p{margin:0}
+.page-home #booking-notice{margin:16px 0 0}
+.page-home #form-status:empty{display:none}
+.page-home .contact-box .actions{gap:12px}
+.page-home .navlinks{flex-wrap:wrap;gap:8px 24px;justify-content:flex-end}
+.page-home .nav{padding:12px 0}
+.page-home .contact-box,.page-home .about-copy{min-width:0}
+.page-home .contact-box .button{white-space:normal;text-align:center}
+.page-home .deliverables>div,.page-home .coming-grid>div{min-width:0}
+.page-home .deliverables p{margin:12px 0 0}
+.page-admin{box-sizing:border-box;width:100%;max-width:1048px;padding:24px;margin:16px auto}
+.page-admin *{box-sizing:border-box}
+.page-admin #bookings .booking-actions button,.page-admin #bookings .reschedule-actions button{margin:0}
+.page-admin .booking-actions,.page-admin .reschedule-actions{gap:12px}
+.page-admin .booking-card{padding:24px;margin:20px 0}
+.page-admin .booking-card h3{margin:8px 0}
+.page-admin .reschedule-panel{padding:20px;margin-top:20px}
+.page-admin .reschedule-panel label{margin:16px 0}
+.page-admin .reschedule-actions{margin-top:16px}
+.page-admin button{min-height:44px;max-width:100%;white-space:normal;overflow-wrap:anywhere}
+.page-admin .setup-drawer section>button{margin:4px 8px 8px 0}
+.page-admin #admin-status:empty{display:none}
+.page-confirmation main{width:100%;max-width:716px;margin:32px auto;padding:24px 28px;box-sizing:border-box}
+.page-confirmation main>h1{margin:24px 0 16px;font-size:clamp(30px,6vw,40px)}
+.page-confirmation #checkout-form{margin:24px 0}
+.page-confirmation #hold:empty,.page-confirmation #status-feedback:empty,.page-confirmation #payment-message:empty{display:none}
+.page-confirmation p{overflow-wrap:anywhere}
+@media(max-width:650px){
+ .page-home .wrap{width:calc(100% - 40px)}
+ .page-home .navlinks{justify-content:flex-start;gap:4px 16px}
+ .page-home .form-grid{gap:20px}
+ .page-home fieldset#roster,.page-home .quote{padding:20px}
+ .page-home .request .actions{gap:12px}
+ .page-home .request .actions>.button{width:100%;min-height:48px}
+ .page-home .section-head{margin-bottom:28px}
+ .page-home .contact-box{padding:24px}
+ .page-admin{margin:8px auto;padding:20px}
+ .page-admin .booking-card{padding:20px}
+ .page-admin .booking-actions{display:grid;grid-template-columns:1fr}
+ .page-admin .booking-actions button{width:100%}
+ .page-admin .reschedule-panel{padding:16px}
+ .page-confirmation main{margin:12px auto;padding:20px}
+}
